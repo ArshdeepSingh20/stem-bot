@@ -33,16 +33,19 @@
 }
 
 .chatbox {
-    height: 80vh;
+    height: 85vh;
     width: 98%;
-    padding: 20px;
     background: #F5F5F5;
     border-radius: 10px;
+    margin: auto;
+   
 }
 .mainchatbox{
-    margin: 15px;
+    margin: 20px 30px 20px 20px;
     background: #F5F5F5;
     border-radius: 10px;   
+    padding-bottom: 20px;
+    
 }
 
 .icon {
@@ -107,13 +110,12 @@
     padding: 12px;
 }
 
-.searchwithimage button {
-    width: 220px;
-    height: 50px;
-}
-
 .searchbutton {
     width: 100px;
+}
+.searchimage{
+    width: 200px;
+    height: 48px;
 }
 
 .generatedimage{
@@ -121,5 +123,29 @@
     max-width:200px ;
 }
 
+.modalheader{
+    padding: 30px;
+    border: none;
+}
+
+.modalhead{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.modalbtn{
+    position: absolute;
+    right: 15px;
+}
+
+
+.upload{
+    height: 250px;
+    width: 450px;
+    border: 2px dashed #7D7D7D;
+    background: #F8F9FA;
+    border-radius: 10px;
+}
 
   
